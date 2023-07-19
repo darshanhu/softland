@@ -10,11 +10,9 @@
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
         
-        var permission = "ADMIN"
-    console.log("Hhfjsdhjlkfhsdj");
-        
-    if(permission === "ADMIN")
-           {
+    var database = "DEMO"        
+    if(permission !== "DEMO")
+        {
             pendo.initialize({
             visitor: {
                 id:           'SOFTLAND_VISITOR_DARSHAN',
@@ -28,10 +26,9 @@
                 creationDate: new Date().toISOString().slice(0, 10)
             }
         });
-
                console.log("Yay Admin is here");
         } else {
-            console.log("Nothing");
+            console.log("YOu can do other work in this block");
         }
         
 
