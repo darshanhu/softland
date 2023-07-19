@@ -11,11 +11,12 @@
         // Please use Strings, Numbers, or Bools for value types.
         
         var permission = "ADMIN"
+    console.log("Hhfjsdhjlkfhsdj");
         if(permission !== "USER")
            {
             pendo.initialize({
             visitor: {
-                id:              'SOFTLAND_VISITOR_DARSHAN',
+                id:           'SOFTLAND_VISITOR_DARSHAN',
                 email:        "darshan.hulswar@softland.com",
                 full_name:    "Darshan Hulswar"
             },
