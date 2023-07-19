@@ -10,7 +10,7 @@
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
         
-    var database = "DEMO"        
+    let database = "DEMO"        
     if(permission !== "DEMO")
         {
             pendo.initialize({
