@@ -10,8 +10,10 @@
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
         
-        
-        pendo.initialize({
+        let permisson = "ADMIN"
+        if(permission != "USER")
+           {
+            pendo.initialize({
             visitor: {
                 id:              'SOFTLAND_VISITOR_DARSHAN',
                 email:        "darshan.hulswar@softland.com",
@@ -24,6 +26,9 @@
                 creationDate: new Date().toISOString().slice(0, 10)
             }
         });
+        } else {
+            console.log("Nothing");
+        }
         
 
 })('43994d6b-66ea-49fc-71f1-31077e387150');
