@@ -11,7 +11,7 @@
         // Please use Strings, Numbers, or Bools for value types.
         
         var permission = "ADMIN"
-        if(permission != "USER")
+        if(permission !== "USER")
            {
             pendo.initialize({
             visitor: {
