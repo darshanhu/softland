@@ -13,23 +13,23 @@
         var permission = "ADMIN"
     console.log("Hhfjsdhjlkfhsdj");
         
-    if(permission === "ADMIN")
+    if(permission !== "USER")
            {
+            pendo.initialize({
+            visitor: {
+                id:           'SOFTLAND_VISITOR_DARSHAN',
+                email:        "darshan.hulswar@softland.com",
+                full_name:    "Darshan Hulswar"
+            },
 
-               console.log("Yes this is working");
-        //     pendo.initialize({
-        //     visitor: {
-        //         id:           'SOFTLAND_VISITOR_DARSHAN',
-        //         email:        "darshan.hulswar@softland.com",
-        //         full_name:    "Darshan Hulswar"
-        //     },
+            account: {
+                id:           'SOFTLAND_ACCOUNT_1',
+                name:         "SOFTLAND_ACCOUNT",
+                creationDate: new Date().toISOString().slice(0, 10)
+            }
+        });
 
-        //     account: {
-        //         id:           'SOFTLAND_ACCOUNT_1',
-        //         name:         "SOFTLAND_ACCOUNT",
-        //         creationDate: new Date().toISOString().slice(0, 10)
-        //     }
-        // });
+               console.log("Yay Admin is here");
         } else {
             console.log("Nothing");
         }
