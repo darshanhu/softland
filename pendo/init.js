@@ -13,7 +13,7 @@
         var permission = "ADMIN"
     console.log("Hhfjsdhjlkfhsdj");
         
-    if(permission !== "ADMIN")
+    if(permission === "ADMIN")
            {
             pendo.initialize({
             visitor: {
