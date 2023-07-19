@@ -10,7 +10,7 @@
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
         
-        let permisson = "ADMIN"
+        var permisson = "ADMIN"
         if(permission != "USER")
            {
             pendo.initialize({
