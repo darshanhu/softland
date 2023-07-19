@@ -11,7 +11,7 @@
         // Please use Strings, Numbers, or Bools for value types.
         
     let database = "DEMO"        
-    if(database  !== "PRODUCTION")
+    if(database  !== "DEMO")
         {
             pendo.initialize({
             visitor: {
