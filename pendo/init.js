@@ -14,17 +14,29 @@
     if(database  !== "DEMO")
         {
             pendo.initialize({
+            // visitor: {
+            //     id:           'SOFTLAND_VISITOR_DARSHAN',
+            //     email:        "darshan.hulswar@softland.com",
+            //     full_name:    "Darshan Hulswar"
+            // },
+
+            // account: {
+            //     id:           'SOFTLAND_ACCOUNT_1',
+            //     name:         "SOFTLAND_ACCOUNT",
+            //     creationDate: new Date().toISOString().slice(0, 10)
+            // }
+
             visitor: {
-                id:           'SOFTLAND_VISITOR_DARSHAN',
-                email:        "darshan.hulswar@softland.com",
-                full_name:    "Darshan Hulswar"
+                id:           '',
+                email:        "",
+                full_name:    ""
             },
 
             account: {
-                id:           'SOFTLAND_ACCOUNT_1',
-                name:         "SOFTLAND_ACCOUNT",
+                id:           '',
+                name:         "",
                 creationDate: new Date().toISOString().slice(0, 10)
-            }
+            }    
         });
                console.log("Yay Admin is here");
         } else {
