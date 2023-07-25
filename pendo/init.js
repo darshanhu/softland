@@ -27,13 +27,13 @@
             // }
 
             visitor: {
-                id:           '',
+                id:           'VISITOR-UNIQUE-ID',
                 email:        "",
                 full_name:    ""
             },
 
             account: {
-                id:           '',
+                id:           'ACCOUNT-UNIQUE-ID',
                 name:         "",
                 creationDate: new Date().toISOString().slice(0, 10)
             }    
