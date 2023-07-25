@@ -25,7 +25,7 @@
                 name:         "SOFTLAND_ACCOUNT",
                 creationDate: new Date().toISOString().slice(0, 10)
             }
-            disableGuides: true    
+            // disableGuides: true    
         });
                console.log("Yay Admin is here");
         } else {
