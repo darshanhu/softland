@@ -25,7 +25,7 @@
                 name:         "SOFTLAND_ACCOUNT",
                 creationDate: new Date().toISOString().slice(0, 10)
             },
-            disableGuides: (window.location.hostname === "softlandsite.netlify.app") ? console.log("Hello") : false
+            disableGuides: (window.location.hostname === "softlandsite.netlify.app") ? true : false
         });
                console.log("Yay Admin is here");
         } else {
