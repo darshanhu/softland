@@ -33,7 +33,7 @@
             },
 
             account: {
-                id:           'SOFTLAND_ACCOUNT_1',
+                id:           null,
                 name:         null,
                 creationDate: new Date().toISOString().slice(0, 10)
             }    
