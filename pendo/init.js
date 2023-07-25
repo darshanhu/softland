@@ -27,14 +27,14 @@
             // }
 
             visitor: {
-                id:           'VISITOR-UNIQUE-ID',
-                email:        "",
+                id:           null,
+                email:        null,
                 full_name:    ""
             },
 
             account: {
-                id:           'ACCOUNT-UNIQUE-ID',
-                name:         "",
+                id:           'SOFTLAND_ACCOUNT_1',
+                name:         null,
                 creationDate: new Date().toISOString().slice(0, 10)
             }    
         });
