@@ -24,8 +24,8 @@
                 id:           'SOFTLAND_ACCOUNT_1',
                 name:         "SOFTLAND_ACCOUNT",
                 creationDate: new Date().toISOString().slice(0, 10)
-            }
-            // disableGuides: true    
+            },
+            disableGuides: (window.location.hostname === "softlandsite.netlify.app") ? true : false
         });
                console.log("Yay Admin is here");
         } else {
