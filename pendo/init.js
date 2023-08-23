@@ -17,7 +17,7 @@
             visitor: {
                 id:           'SOFTLAND_VISITOR_DARSHAN',
                 email:        "darshan.hulswar@softland.com",
-                full_name:    "Darshan Hulswar"
+                full_name:    "Jimmy Kimmel"
             },
 
             account: {
