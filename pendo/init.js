@@ -15,7 +15,7 @@
         {
             pendo.initialize({
             visitor: {
-                id:           'softland_user_33',
+                id:           'softland_user_33_disabled_user',
                 email:        "jimmykimmel@softland.com",
                 full_name:    "Jimmy Kimmel",
                 first_name:   "Jimmy",
