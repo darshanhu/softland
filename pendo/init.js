@@ -11,28 +11,4 @@
         // Please use Strings, Numbers, or Bools for value types.
         
     let database = "PRODUCTION"        
-    if(database  !== "DEMO")
-        {
-            pendo.initialize({
-            visitor: {
-                // id:           'softland_user_33_disabled_user',
-                email:        "jimmykimmel@softland.com",
-                full_name:    "Jimmy Kimmel",
-                first_name:   "Jimmy",
-                last_name:    "Kimmel"
-            },
-
-            account: {
-                id:           'SOFTLAND_ACCOUNT_1',
-                name:         "SOFTLAND_ACCOUNT",
-                creationDate: new Date().toISOString().slice(0, 10)
-            },
-            // disableGuides: (window.location.hostname === "softlandsite.netlify.app") ? true : false
-        });
-               console.log("Yay Admin is here");
-        } else {
-            console.log("YOu can do other work in this block");
-        }
-        
-
-})('');
+ )('43994d6b-66ea-49fc-71f1-31077e387150');
