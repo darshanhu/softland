@@ -27,6 +27,7 @@
                 name:         "SOFTLAND_ACCOUNT",
                 creationDate: new Date().toISOString().slice(0, 10)
             },
+            // the below line of code will disable the guide if the user matches the value
             disableGuides: (userID === "jimmykimmel@softland.com") ? true : false
         });       
 }
