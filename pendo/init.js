@@ -28,7 +28,7 @@
                 creationDate: new Date().toISOString().slice(0, 10)
             },
             // the below line of code will disable the guide if the user matches the value
-            disableGuides: (userID === "jimmykimmel@softland.com") ? true : false
+            // disableGuides: (userID === "jimmykimmel@softland.com") ? true : false
         });       
 }
  )('43994d6b-66ea-49fc-71f1-31077e387150');
