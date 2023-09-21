@@ -9,9 +9,11 @@
         // This function uses the placeholder 'ACCOUNT-UNIQUE-ID' value for account ID unless you change the account id field to use your app's values
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
-        
-        
-        pendo.initialize({
+  
+            let userID = "jimmykimmel@softland.com";
+            let userEmail = "jimmykimmel@softland.com";
+
+            pendo.initialize({
             visitor: {
                 id:           userID,
                 email:        userEmail,
@@ -24,8 +26,9 @@
                 id:           'SOFTLAND_ACCOUNT_1',
                 name:         "SOFTLAND_ACCOUNT",
                 creationDate: new Date().toISOString().slice(0, 10)
-            }
-        });
-        
-
-})('43994d6b-66ea-49fc-71f1-31077e387150');
+            },
+            // the below line of code will disable the guide if the user matches the value
+            // disableGuides: (userID === "jimmykimmel@softland.com") ? true : false
+        });       
+}
+ )('43994d6b-66ea-49fc-71f1-31077e387150');
