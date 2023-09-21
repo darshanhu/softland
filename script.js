@@ -7,5 +7,5 @@ window.addEventListener('message', function(event) {
   const btn = this.document.querySelector('#softland-btn');
   btn.addEventListener('click', function(){
     pendo.showGuideById("8qPDWFwuqM_ewygaO2UGdI2yipQ");
-    console.log("Clicked")
+    console.log("SOFT LAND - send-message-btn clicked");
   })
