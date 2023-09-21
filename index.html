@@ -7,6 +7,7 @@
     <title>SoftLand Bootstrap Template - Index</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
+    <base target="_blank" />
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
@@ -138,7 +139,9 @@
                   data-aos-delay="200"
                   data-aos-offset="-500"
                 >
-                  <a href="#" class="btn btn-outline-white">Get started</a>
+                  <a id="softland-btn" href="#" class="btn btn-outline-white"
+                    >Get started</a
+                  >
                 </p>
               </div>
               <div class="col-lg-4 iphone-wrap">
@@ -490,19 +493,19 @@
               <div class="col-md-4 mb-4 mb-md-0">
                 <h3>Navigation</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">Pricing</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#" id="bubbleTrails-:r1:">Pricing</a></li>
+                  <li><a href="#" id="bubbleTrails-:r2:">Features</a></li>
+                  <li><a href="#" id="bubbleTrails-:r3:">Blog</a></li>
+                  <li><a href="#" id="bubbleTrails-:r4:">Contact</a></li>
                 </ul>
               </div>
               <div class="col-md-4 mb-4 mb-md-0">
                 <h3>Services</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">Team</a></li>
-                  <li><a href="#">Collaboration</a></li>
-                  <li><a href="#">Todos</a></li>
-                  <li><a href="#">Events</a></li>
+                  <li><a href="#" id="bubbleTrails-:r5:">Team</a></li>
+                  <li><a href="#" id="bubbleTrails-:r6:">Collaboration</a></li>
+                  <li><a href="#" id="bubbleTrails-:r7:">Todos</a></li>
+                  <li><a href="#" id="bubbleTrails-:r8:">Events</a></li>
                 </ul>
               </div>
               <div class="col-md-4 mb-4 mb-md-0">
@@ -550,6 +553,12 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="pendo/init.js"></script>
-    <script src="./script.jss"></script>
+    <script src="./script.js"></script>
+
+    <script>
+      document.getElementById("softland-btn").addEventListener("click", () => {
+        console.log("YAYAYA clicked me or kicked me");
+      });
+    </script>
   </body>
 </html>
